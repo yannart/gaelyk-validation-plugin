@@ -1,0 +1,6 @@
+.form-validation-error {
+	display: block;
+	margin-left: 1em;
+	width: auto;
+	color: red;
+}
