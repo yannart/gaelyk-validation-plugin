@@ -12,6 +12,7 @@ user.firstname = params['firstname']
 user.middlename = params['middlename']
 user.lastname = params['lastname']
 user.age = Integer.parseInt(params['age'])
+user.notValidatedByClient = params['notValidatedByClient']
 user.enabled = params['enabled'] != null ? true : false
 
 log.info "Creating user: ${user}"

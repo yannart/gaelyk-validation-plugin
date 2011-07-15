@@ -19,6 +19,11 @@ class User {
 	@Min(13L)
 	@Max(110L)
 	Integer age
+	
+	//this field is used to demonstrate the ability of ignoring
+	//client side validation for particular fields
+	@Size(min = 10, max = 15)
+	String notValidatedByClient
 
 	boolean enabled
 }

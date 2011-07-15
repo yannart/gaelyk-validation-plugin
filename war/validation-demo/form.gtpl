@@ -34,6 +34,10 @@
               <label for="age">Age</label><br> 
               <input type="text" name="age" id="age" value="<%= user?.age %>"> 
             </p>
+            <p> 
+              <label for="notValidatedByClient">Field not validated at client side</label><br> 
+              <input type="text" name="notValidatedByClient" id="notValidatedByClient" value="<%= user?.notValidatedByClient %>"> 
+            </p>
             <p>
 		 		<input type="checkbox" name="enabled" <%= user?.enabled == true ? "checked" : "" %>>Enabled<br> 
 			</p>
