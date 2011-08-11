@@ -8,7 +8,7 @@
 	jQuery.validator.setDefaults({errorClass: "form-validation-error"});
 
 	// validate category form on keyup and submit
-	\$("#validatedForm").validate({<%= request.getAttribute('client-validation-rules') %>});
+	\$("#validatedForm").validate({<%= validationDescriptor.render(com.yannart.entity.User.class) %>});
 });
 </script>
 
