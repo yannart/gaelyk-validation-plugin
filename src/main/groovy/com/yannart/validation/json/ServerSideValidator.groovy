@@ -22,6 +22,8 @@ class ServerSideValidator {
 		if(violations.size()>0) {
 			log.warn "There are validation errors"
 
+			hasErrors = true
+
 			//Validation KO
 			violations.each {
 				def errorMessage = "${it.getPropertyPath()} ${it.getMessage()}"
