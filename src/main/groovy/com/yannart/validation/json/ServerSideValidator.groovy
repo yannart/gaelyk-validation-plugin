@@ -20,13 +20,13 @@ class ServerSideValidator {
 		def violations = validator.validate(entity);
 
 		if(violations.size()>0) {
-			log.warning "There are validation errors"
+			log.warn "There are validation errors"
 
 			//Validation KO
 			violations.each {
 				def errorMessage = "${it.getPropertyPath()} ${it.getMessage()}"
 				errorMessages.add(errorMessage)
-				log.warning "Validation error: ${errorMessage}"
+				log.warn "Validation error: ${errorMessage}"
 				}
 		} else {
 			//validation OK
