@@ -51,6 +51,8 @@ dependencies {
             "com.google.appengine:appengine-api-labs:$gaeVersion",
             'glaforge:gaelyk:1.0'
 
+    compile group: 'org.hibernate', name: 'hibernate-validator', version: '4.2.0.Final'
+
     testCompile 'org.spockframework:spock-core:0.5-groovy-1.8', {
         exclude group: 'org.codehaus.groovy', name: 'groovy-all'
     }
