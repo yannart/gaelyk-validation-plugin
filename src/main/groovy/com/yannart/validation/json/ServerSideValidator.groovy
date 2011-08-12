@@ -1,9 +1,11 @@
 package com.yannart.validation
 
 import javax.validation.*
+import org.slf4j.LoggerFactory
 
 class ServerSideValidator {
 
+	def log =  LoggerFactory.getLogger(ServerSideValidator.class);
 	def validator = Validation.buildDefaultValidatorFactory().getValidator()
 
 	boolean validate(entity, request) {
