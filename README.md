@@ -1,6 +1,17 @@
 Gaelyk Validation Plugin
 ====
 
+Example quickstart
+------------------
+
+-Checkout the example branch.
+-In a console "grandlew classes" then "grandlew gaeRun"
+-Open a browser with the URL http://localhost:8080/validation-demo/form.groovy
+-Test the validation while completing the form. The field "Field not validated at client side" is not validated on the client side ;-)
+
+Introduction
+------------
+
 This plugin allows the validation of forms in the server side and in the client side based on the Model.
 
 It uses JSR303 validation annotations to annotate a Bean and Hibernate Validator to perform the server side validation. It uses JQuery Validation to do the client side validation.
