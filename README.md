@@ -4,10 +4,10 @@ Gaelyk Validation Plugin
 Example quickstart
 ------------------
 
--Checkout the example branch.
--In a console "grandlew classes" then "grandlew gaeRun"
--Open a browser with the URL http://localhost:8080/validation-demo/form.groovy
--Test the validation while completing the form. The field "Field not validated at client side" is not validated on the client side ;-)
+*	Checkout the example branch.
+*	In a console "grandlew classes" then "grandlew gaeRun"
+*	Open a browser with the URL http://localhost:8080/validation-demo/form.groovy
+*	Test the validation while completing the form. The field "Field not validated at client side" is not validated on the client side ;-)
 
 Introduction
 ------------
@@ -33,8 +33,8 @@ The current implementation of JSR303 is Hibernate Validator.
 
 The client side validation is performed with JQuery Validation plugin: http://bassistance.de/jquery-plugins/jquery-plugin-validation/
 
-Example
--------
+Example description
+-------------------
 
 Example of how to perform a form validation from a POGO annotated with JSR303 validation annotations.
 
